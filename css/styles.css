@@ -31,19 +31,18 @@ body{
 
 /* HEADER */
 .logo-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #000000;
     text-decoration: none;
+    color: #000000;
 }
 .first-part-logo{
     color: var(--accent-color)
 }
 .menu-link{
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -52,8 +51,6 @@ body{
 }
 
 .contact-link{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 0.14;
@@ -70,11 +67,10 @@ body{
 /* /HEADER */
 /* MAIN */
 .hero {
-    background: #2F303A;
+    background:var(--secondary-background-color)
 }
 
 .main-title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -88,7 +84,7 @@ body{
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    font-family:inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -97,7 +93,6 @@ body{
     color: var(--accent-second-color);
 }
 .adv-item{
-font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.71;
@@ -107,15 +102,11 @@ font-family: 'Roboto', sans-serif;
 
 }
 .adv-describe{
-    font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--primary-text-color)
 }
 .our-work-title{
-    font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -123,7 +114,6 @@ font-family: 'Roboto', sans-serif;
         color: var(--secondary-text-color);
 }
 .team-title{
-    font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -131,7 +121,6 @@ font-family: 'Roboto', sans-serif;
         color: var(--secondary-text-color);
 }
 .team-names-employees{
-font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -139,9 +128,6 @@ font-family: 'Roboto', sans-serif;
         color: var(--secondary-text-color);
 }
 .team-profession{
-font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--primary-text-color)
@@ -149,14 +135,13 @@ font-family: 'Roboto', sans-serif;
 /* /MAIN */
 /* FOOTER */
 .main-footer{
-    background: #2F303A;
+    background:var(--secondary-background-color);
 }
 .footer-logo{
-    color: #FFFFFF;
+    color:var(--accent-second-color);
 }
 .address-link{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71px;
@@ -164,19 +149,19 @@ font-style: normal;
         color:var(--accent-second-color)
 }
 .footer-cotact{
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 0.14;
         letter-spacing: 0.02em;
-        color:var(--primary-text-color)
+        color: rgba(255, 255, 255, 0.6);
+
 }
 
 /* /FOOTER */
 /* PORTFOLIO MAIN */
 .btn-link-portfolio{
-    font-family: 'Roboto', sans-serif;
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.86;
@@ -191,7 +176,7 @@ font-style: normal;
 .btn-link-portfolio:focus{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,86;    
@@ -202,7 +187,6 @@ color: var(--accent-second-color);
 
 }
 .proj-name{
-    font-family: 'Roboto', sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -210,7 +194,6 @@ letter-spacing: 0.06em;
 color: var(--secondary-text-color);
 }
 .proj-desc{
-    font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 2;
