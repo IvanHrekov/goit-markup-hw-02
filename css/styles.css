@@ -161,6 +161,7 @@ body{
 /* /FOOTER */
 /* PORTFOLIO MAIN */
 .btn-link-portfolio{
+    cursor: pointer;
     font-family:inherit;
     font-weight: 500;
     font-size: 16px;
