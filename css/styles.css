@@ -36,6 +36,7 @@ body{
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
 }
+
 .container{
     width: 1200px;
     margin-left: auto;
@@ -50,7 +51,7 @@ body{
 .link {
     text-decoration: none;
 }
-.current{
+.menu-link.current{
     color: var(--accent-color);
 }
 .section{
@@ -126,7 +127,7 @@ margin-right: 52px;
 /* /HEADER */
 /* MAIN */
 .hero {
-    display: flex;
+    min-height: 600px;
     padding-top: 200px;
     padding-bottom: 280px;
     background:var(--secondary-background-color)
@@ -175,10 +176,7 @@ margin-right: 52px;
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
-.adv-div{
-    display: inline-flex;
-    
-}
+
 .adv-item{
         font-weight: 700;
         font-size: 14px;
@@ -196,10 +194,22 @@ margin-right: 52px;
 .title{
     margin-bottom: 50px;
 }
+
 .list-advant{
     display: flex;
+    
+}
+.advantage-list{
+    flex-basis: calc(100%-90px/4);
+}
+.list-work{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .our-work-title{
+    display: flex;
+    justify-content: center;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -285,8 +295,16 @@ margin-right: 52px;
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    background-color: var(--stuff-background-color);
+    border: 0px;
     color: var(--secondary-text-color);
+    
+}
+.btn-list{
+    display: flex;
+    padding: 6px 22px 6px 22px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
     
 }
 .btn-link-portfolio:hover,
